@@ -1,0 +1,102 @@
+/* Config */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: #2B2E4E;
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+    height: 300vh;
+}
+
+/* Navbar */
+
+header {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: #fff;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.278);
+    align-items: center;
+}
+
+
+
+nav {
+    display: flex;
+    margin: auto;
+    width: 70%;
+}
+
+.navbar {
+    display: flex;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.navbar, li {
+    list-style-type: none;
+}
+
+.navbar, a {
+    text-decoration: none;
+    color: #6BC9A8;
+}
+
+.dropdown {
+    display: none;
+}
+
+.search input {
+    border-radius: 5px;
+    border: 1px #6BC9A8 solid;
+    color: #6bc9a8c5;
+}
+
+
+/* Hero */
+
+.hero {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+.hero, .hero-bg {
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.hero-description {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center; 
+    top: 20%;
+    color: #fff;
+    width: 50%;
+    font-size: 1.8rem;
+    text-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.518);
+}
+span {
+    color: #bdf5e1;
+}
